@@ -5,26 +5,33 @@ base, alt, comp, lad: real;
 areat, areaq: real;
 op: integer;
 Begin
-writeln('Insira os dados necess·rios para este exercÌcio: ');
-writeln('Insira a base do trinagulo: ');
-readln(base);
-writeln('Insira a altura do trinagulo: ');
-readln(alt);
-writeln('Insira o comprimento do quadrado: ');
-readln(comp);
-writeln('Inisira a largura do quadrado: ');
-readln(lad);
-
-writeln('Agora escolha uma destas opeÁıes: ');
-writeln('1: ¡rea do trinagulo');
-writeln('2: ¡rea do quadrado');
+writeln('Escolha uma destas ope√ß√µes: ');
+writeln('1: √Årea do triangulo');
+writeln('2: √Årea do quadrado');
 readln(op);
-areat:= (base * alt) / 2;
-areaq:= comp * lad;
+
 case op of 
-	1: writeln('A ·rea do trinagulo È de: ',areat);
-	2: writeln('A ·rea do quadrado È de: ',areaq);	
+	1:Begin
+	writeln('Insira os dados necess√°rios para este exerc√≠cio: ');
+	writeln('Insira a base do triangulo: ');
+	readln(base);
+	writeln('Insira a altura do triangulo: ');
+	readln(alt);
+	areat:= (base * alt) / 2; 
+	writeln('A √°rea do trinagulo √© de: ',areat);
+	end;
+		
+	2:Begin
+	writeln('Insira os dados necess√°rios para este exerc√≠cio: ');
+	writeln('Insira o comprimento do quadrado: ');
+	readln(comp);
+	writeln('Inisira a largura do quadrado: ');
+	readln(lad);
+	areaq:= comp * lad;
+	writeln('A √°rea do quadrado √© de: ',areaq);
+	end;	
+	
 else
-writeln('Escolha n„o v·lida!');
+writeln('Escolha n√£o v√°lida!');
 end;  
 End.
