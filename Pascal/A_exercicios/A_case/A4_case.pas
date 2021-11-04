@@ -5,7 +5,7 @@ base, alt, comp, lad: real;
 areat, areaq: real;
 op: integer;
 Begin
-writeln('Escolha uma destas opeções: ');
+writeln('Escolha uma destas opções: ');
 writeln('1: Área do triangulo');
 writeln('2: Área do quadrado');
 readln(op);
