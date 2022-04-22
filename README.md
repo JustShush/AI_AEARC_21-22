@@ -1,5 +1,5 @@
 # AI_AEARC_21-22
-Isto é tudo o que fizemos durante o ano sobre Aplicaçõe Informática.
+Isto é tudo o que fizemos durante o ano sobre Aplicações Informática.
 
 <p align="center">
   <a href="https://discord.gg/BSfXFmB"><img src="https://cdn.discordapp.com/attachments/704028617595682876/872534726706098177/cisco-webex-meetings1.png"></a>
